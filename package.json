@@ -2,22 +2,27 @@
   "name": "nodeChat",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Red-French/nodeChat.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Red French",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Red-French/nodeChat/issues"
   },
   "homepage": "https://github.com/Red-French/nodeChat#readme",
   "devDependencies": {
     "nodemon": "^1.9.1"
+  },
+  "dependencies": {
+    "socket.io": "^1.4.5"
   }
 }
