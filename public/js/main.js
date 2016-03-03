@@ -1,5 +1,5 @@
 'use strict';
-(function () {  // start iffy with a semicolon to prevent potential error because of what came before not having a semicolon
+;(function () {  // start iffy with a semicolon to prevent potential error because of what came before not having a semicolon
 
     const ws = io.connect();
 
