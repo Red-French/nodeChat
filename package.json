@@ -12,6 +12,20 @@
     "type": "git",
     "url": "git+https://github.com/Red-French/nodeChat.git"
   },
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "es6": true,
+      "jquery": true,
+      "browser": true
+    },
+    "extends": [
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": 0
+    }
+  },
   "keywords": [],
   "author": "Red French",
   "license": "MIT",
@@ -20,9 +34,14 @@
   },
   "homepage": "https://github.com/Red-French/nodeChat#readme",
   "devDependencies": {
+    "bower": "^1.7.7",
     "nodemon": "^1.9.1"
   },
   "dependencies": {
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "pg": "^4.5.1",
+    "pg-native": "^1.10.0",
     "socket.io": "^1.4.5"
   }
 }
